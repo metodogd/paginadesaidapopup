@@ -1,5 +1,55 @@
+/* Confirm on Exit/Close button */
+    .wsfr-gradient { background: #d50505; /* Old browsers */ background: -moz-linear-gradient(top,  #d50505 0%, #8e0303 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d50505), color-stop(100%,#8e0303)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top,  #d50505 0%,#8e0303 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top,  #d50505 0%,#8e0303 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top,  #d50505 0%,#8e0303 100%); /* IE10+ */ background: linear-gradient(to bottom,  #d50505 0%,#8e0303 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d50505', endColorstr='#8e0303',GradientType=0 ); /* IE6-9 */ }
+    .vf-gradient { /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5cafa4+0,226869+100 */background: #5cafa4; /* Old browsers */background: -moz-linear-gradient(top,  #5cafa4 0%, #226869 100%); /* FF3.6-15 */background: -webkit-linear-gradient(top,  #5cafa4 0%,#226869 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to bottom,  #5cafa4 0%,#226869 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5cafa4', endColorstr='#226869',GradientType=0 ); /* IE6-9 */}
+    .fd-gradient { background: #4875ac; /* Old browsers */ background: -moz-linear-gradient(top,  #4875ac 0%, #1c4678 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4875ac), color-stop(100%,#1c4678)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top,  #4875ac 0%,#1c4678 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top,  #4875ac 0%,#1c4678 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top,  #4875ac 0%,#1c4678 100%); /* IE10+ */ background: linear-gradient(to bottom,  #4875ac 0%,#1c4678 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4875ac', endColorstr='#1c4678',GradientType=0 ); /* IE6-9 */ }
+    .ftd-gradient { background: #02e2fb; /* Old browsers */ background: -moz-linear-gradient(top,  #02e2fb 0%, #01053d 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#02e2fb), color-stop(100%,#01053d)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top,  #02e2fb 0%,#01053d 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top,  #02e2fb 0%,#01053d 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top,  #02e2fb 0%,#01053d 100%); /* IE10+ */ background: linear-gradient(to bottom,  #02e2fb 0%,#01053d 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02e2fb', endColorstr='#01053d',GradientType=0 ); /* IE6-9 */ }
+    .fgi-gradient {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9b81e+0,a27f12+100 */background: #e9b81e; /* Old browsers */background: -moz-linear-gradient(top,  #e9b81e 0%, #a27f12 100%); /* FF3.6-15 */background: -webkit-linear-gradient(top,  #e9b81e 0%,#a27f12 100%); /* Chrome10-25,Safari5.1-6 */background: linear-gradient(to bottom,  #e9b81e 0%,#a27f12 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9b81e', endColorstr='#a27f12',GradientType=0 ); /* IE6-9 */}		
 
-        
+    .backgr-close-btn { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #000000; z-index: 100; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; filter: alpha(opacity=90); opacity: 0.90; }
+    .wrapper-close-btn { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #000000; z-index: 101; overflow-y: scroll; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; filter: alpha(opacity=90); opacity: 1; }
+
+    .ea-block {	width: 100%; overflow: hidden; position: relative; }
+    /*.ea-block { width: 100%; border: 1px solid #dcdcdc; overflow: hidden; position: relative; background-color: #F0F0F0; }*/
+    .ea-block img { display: inline-block; }
+    .ea-block-gold { width: 100%; overflow: hidden; border: 2px solid #61c7f5; }
+    .ea-block-gold-bckgr { background-image: url( /images/forex_diamond/bckgr_fd_gold.png ); background-repeat: no-repeat; z-index: 12; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+
+    .wrapper-close-btn .title { font-size: 36px; }
+    /* modal dialog */
+    .modal-body ul { list-style-position: inside; }
+
+  
+/* Flash class and keyframe animation */
+.flash-pulse{ color:#333; font-weight: 700; font-size: 30px; -webkit-animation: flash linear 1s infinite; animation: flash linear 3s infinite; }
+@-webkit-keyframes flash-pulse {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+@keyframes flash-pulse {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+/* ------------- Confirm Exit Counter -------------- */
+.confirm-exit-counter-bckgr { max-width: 60%; margin: 10px 0; }
+.confirm-exit-counter { width: 300px; max-width: 100%; margin: 0 auto; padding: 20px 0; }
+.confirm-exit-counter .bf-time-left-OLD { position: absolute; width: 0; height: 69px; z-index: 1; top: 328px; left: 227px; padding: 6px 0 0 0; margin: 0; text-align: center; font-size: 36px; color: #40403e; font-weight: bold; font-family: Arial, Helvetica, sans-serif; }
+.confirm-exit-counter .bf-time-left {float: left;width: 9%;height: 50px;line-height: 50px;padding: 0;margin: 0 1% 0 1%;text-align: center;font-size: 36px;color: #40403e;font-weight: bold;font-family: Arial, Helvetica, sans-serif;background: #fcfcfc;background: -moz-linear-gradient(top, #fcfcfc 0%, #e1e1e1 50%, #fafafa 51%, #e1dede 100%);background: -webkit-linear-gradient(top, #fcfcfc 0%,#e1e1e1 50%,#fafafa 51%,#e1dede 100%);background: linear-gradient(to bottom, #fcfcfc 0%,#e1e1e1 50%,#fafafa 51%,#e1dede 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#e1dede',GradientType=0 );-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;}
+.confirm-exit-counter .confirm-exit-labels { padding: 5px 0 0 0; width: 100%; }
+.confirm-exit-counter .confirm-exit-labels .item { padding: 0; margin-right: 5%; width: 21%; font-size: 9px; color: #fff; text-align: center; float: left; text-transform: uppercase; }
+.confirm-exit-counter .confirm-exit-labels .item:last-child {margin-right: 0;}
+.confirm-exit-counter .bf-time-left-dots { float: left; color: #fff; width: 4%; height: 50px; line-height: 42px; text-align: center; font-size: 36px; font-weight: bold; font-family: Times New Roman;}
+.confirm-exit-counter .bf-time-left { top: 0; left: 0; }
+.confirm-exit-counter .time_left_hours_first_promo { left: 98px; }
+.confirm-exit-counter .time_left_hours_second_promo { left: 136px; }
+.confirm-exit-counter .time_left_minutes_first_promo { left: 186px; }
+.confirm-exit-counter .time_left_minutes_second_promo { left: 225px; }
+.confirm-exit-counter .time_left_seconds_first_promo{ left: 276px; }
+.confirm-exit-counter .time_left_seconds_second_promo { left: 316px; }
+
+.ce-winter-title { text-align: center; font-size: 68px; font-weight: 700; color: #fff; }
+
 
 
 /*---- Promo Offer Popup ----*/
@@ -17,7 +67,48 @@
 .backgr-close-btn-promo { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #000000; z-index: 100; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; filter: alpha(opacity=90); opacity: 0.90; }
 .wrapper-close-btn-promo { position: absolute; top: 0; left: 0; width: 100%; height: 100%;  z-index: 101; overflow-y: scroll; }
 
+/* Forex GOLD Investor Counter */
+.fgi_counter { position: absolute; top: 125px; right: 60px; width: 45%; }
+.fgi_counter .text-under { font-size: 20px; color: #fff; text-align: center; }
+.fgi_counter .clock { padding: 0 14px; width: 100%; float: right; border-width: 1px; border-style: solid; /*border-color: #ac870c #f2cc4d #f2cc4d #ac870c; box-shadow: 1px 1px 1px #ac870c inset; */background: #000; }
+.fgi_counter .clock ul { list-style: none; text-align: center; padding: 0; }
+.fgi_counter .clock li { width: 20.5%; float: left; }
+.fgi_counter .clock li.point { width: 6%; font-family: 'Roboto Condensed', sans-serif; font-weight: 400; line-height: 1.7; font-size: 45px; color: #e9b80f; }
+.fgi_counter .clock li p { margin: 0 0 5px 0; font-family: 'Roboto Condensed', sans-serif; font-weight: 400; color: #fff; }
+.fgi_counter .clock li span { width: 100%; float: left; }
+.fgi_counter .clock li cite { width: 49%; height: 40px; float: left; position: relative; font-family: 'Roboto Condensed', sans-serif; font-size: 30px; font-style: normal; border-radius: 4px; background-color: #E9B80F; font-weight: bold; color: #000; -webkit-box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.5);
+box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.5); }
+.fgi_counter .clock li cite:last-child { float: right; }
+.fgi_counter .clock li cite:after { width: 100%; height: 1px; position: absolute; top: 50%; left: 0px; content: ""; background: #323232; }
 
+/* ----------- how to be successful pdf -------------- */
+
+.how-to-be-successful { padding: 15px 15px 15px 60px; font-size: 14px; color: #414141; border:1px solid #d6d6d6; background: #f5f5f5 url(/images/warning_30x30.png) no-repeat 15px 19px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+
+/************ Members offer **********/
+.members_offer_sec { width: 100%; float: left; background-color: #000; position: relative; z-index: 1; }
+/*.members_offer_sec:after { width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; content: ""; opacity: 0.25; z-index: -1; background: url('/images/walls_bg2.jpg') no-repeat top center; background-size: cover; }*/
+.members_offer_sec:after { width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; content: ""; opacity: 0.25; z-index: -1; background: url('/images/walls_bg2.webp') no-repeat top center; background-size: cover; }
+.members_offer_sec .content { /*width: 1600px;*/ max-width: 100%; margin: 0 auto; padding: 0 0 10px 0; }
+.members_offer_sec .content h2 { font-size: 32px; font-weight: 700; font-family: 'Roboto', sans-serif; text-align: center; color: #fff; margin: 0; padding: 20px 0 10px 0; }
+.members_offer_sec .content h2 span { color: #C80000; }
+.members_offer_sec .content .box { background-color: #F2F2F2; color: #fff; text-align: center; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; padding: 10px; margin: 20px 5px; }
+.members_offer_sec .content .box .box-img { width: 190px; max-width: 100%; margin: 0 auto; padding: 5px 0 0 0; }
+.members_offer_sec .content .box .box-img img { max-width: 100%; }
+.members_offer_sec .content .box .title { text-transform: uppercase; font-size: 20px; font-weight: 700; padding-top: 5px; font-family: 'Roboto', sans-serif; color: #333; }
+.members_offer_sec .content .box .regular { font-size: 22px; text-decoration: line-through; color: #333; }
+.members_offer_sec .content .box .special { font-size: 32px; font-weight: 700; color: #d60000; }
+.members_offer_sec .content .box .text { font-size: 16px; font-style: italic; font-family: 'Roboto', sans-serif; color: #333; }
+.members_offer_sec .content .box .btn, .members_offer_sec .content .box .btn:focus { max-width: 100%; height:40px; padding:0 30px; margin:20px 0 15px 0; display:inline-block; font-size:18px; font-weight: 500; color: #fff; line-height:40px; font-family: 'Roboto', sans-serif; background: #a80000; border-radius:3px; }
+.members_offer_sec .content .box .btn i{ margin:0 0 0 5px; font-weight: 300;}
+.members_offer_sec .content .box .btn:hover { color:#fff; background: #000; }
+
+.members_offer_sec .content .hot-offer { position: absolute; text-transform: uppercase; background: #ffe502; padding: 3px 0 0 0; font-weight: bold; border: 3px solid #ff240e; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; width: 205px; color: #ff240e; top: 5px; text-align: center; margin: 0 auto; left: 0; right: 0; }
+
+.members_offer_xmas { background: #BD0000; }
+.members_offer_xmas:after { background: none; }
+.members_offer_xmas .content h2 { font-size: 32px; }
 
 /************ Xmas Exit offer **********/
 .xmax_x_box { background-color: #F2F2F2; color: #fff; text-align: center; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; padding: 10px; margin: 20px 5px; }
@@ -49,9 +140,7 @@
 .x_offer_xmas .content h2 { font-size: 32px; }
 
 /* OVERWRITE col-md, col-sm*/
-/*.members_offer_sec .col-md-2 { width: 20%; }
-
-*/
+/*.members_offer_sec .col-md-2 { width: 20%; }*/
 
 /* ----------- Cooki Consent -------------- */
 div.cookie-consent { padding: 20px; position: fixed; right: 15px; bottom: 15px; z-index: 10000; max-width: 400px; background-color: #000; }
@@ -63,9 +152,6 @@ div.cookie-consent .consent-btn:hover { color:#fff; background: #ffc600; }
 @media (max-width:480px) {
 	div.cookie-consent { right: 0px; bottom: 0px; max-width: 100%; width: 100%; }
 }
-
-
-
 
 /* GENERAL CSS CODE END */
 
