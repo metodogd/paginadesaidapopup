@@ -1,25 +1,5 @@
 
 
-/* GENERAL CSS CODE BEGIN */
-
-* { padding: 0px; margin: 0px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-html, body { font-family: 'Roboto', sans-serif; font-size: 16px; color: #000; font-weight: 400; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-input, select, textarea { font-family: 'Roboto', sans-serif; font-size: 18px; color: #000; }
-img { border: 0px; display: block; }
-a, input, button { outline: none !important; -webkit-transition: 0.30s; -moz-transition: 0.30s; transition: 0.30s; }
-a { text-decoration: none; color: #d70303; }
-a:hover, a:focus { color: #333; text-decoration: none; }
-h1, h2, h3, h4, h5, h6 { font-weight: normal; }
-
-/* font-family: 'Open Sans', sans-serif; */
-
-.animated {
-    visibility: hidden;
-}
-.visible {
-    visibility: visible;
-}
-
 /* wrapper */
 #wrapper { width: 100%; float: left; overflow: hidden; }	
 	
