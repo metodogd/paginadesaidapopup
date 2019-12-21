@@ -1944,67 +1944,7 @@ div.cookie-consent .consent-btn:hover { color:#fff; background: #ffc600; }
         .xmasGift .content .box .btn, .xmasGift .content .box .btn:focus { font-size: 12px; padding: 0 15px; }
         .xmasGift .col-md-2{width: 33.33333333%}
         
-		/* revolution area */
-		.revolutionArea2 .revolitionized_img { max-width: 25%; top: 35px; left: 10px; }
-		.revolutionArea2 .advantage .title { font-size: 18px; padding: 0 0 5px 110px; }
-		.revolutionArea2 .advantage .title-right { font-size: 18px; padding: 0 110px 5px 0; }
 		
-		/* offer area */
-		.offerArea .now .get a { font-size: 28px; }
-		#bonuses .offer .top .round { margin: -57px auto 0px auto; width: 180px; height: 180px; }
-		
-		/* systems area */
-		
-		/* forex area */
-		.forexArea .forex figure img { width: 80%; }
-		
-		/* historical area */
-		.historicalArea .test figure { padding: 20px; }
-		.historicalArea .test figure img { max-width: 100%; }
-		
-		.historicalArea .fullback .full .text { padding: 15px; }
-		.historicalArea .fullback .full .text figure { margin: 0 10px 0 0; }
-		
-		/* impressive area */
-		.impressiveArea .very figure { margin: -55px 0 0 -62px; }
-		.impressiveArea .very .text { padding:  60px 10px 0 45px; }
-		
-		/* order area */
-		.orderArea .discount figure { margin: 46px 0 0 0; }
-        .orderArea .discount .special-offer-wsfr2-img { max-width: 350px; }
-        
-        .importantPaymentArea { padding: 22px 10px 22px 50px; background-position: center left 130px; }
-
-		.benefitsArea .help { display: none; }
-
-		.guaranteArea .guarante h3 { margin-bottom: 25px; font-size: 32px; }
-
-		.orderArea .bonus-boxes { margin-left: -120px; }
-
-		.accountArea .account { background: #f2f2f2 url(/images/account_line_arrow.jpg) no-repeat 90px bottom; }
-		.accountArea .account .text { padding: 15px 0 0 30px; vertical-align: middle; }
-        
-		.accountArea .account .summary { font-size: 15px; }
-		.accountArea h2 { font-size: 20px; }
-		
-        /* additional license are */
-        .additiolLicenseArea .promotion .additional-licence-counter .promo-counter .days { top: 100px; left: 275px; }
-        .additiolLicenseArea .promotion .additional-licence-counter .promo-counter .hours { top: 100px; left: 388px; }
-        .additiolLicenseArea .promotion .additional-licence-counter .promo-counter .minutes { top: 100px; left: 500px; }
-        .additiolLicenseArea .promotion .additional-licence-counter .promo-counter .seconds { top: 100px; left: 620px; }
-        
-        .specialOfferArea a { line-height: 50px; max-width: 100%; padding: 20px 15px; margin-top: 5px; margin-left: 20px; margin-right: 20px; font-size: 30px; color: #fff; font-weight: 700; text-decoration: none; text-shadow: 2px 1px 2px rgba(0,0,0,0.2); border-radius: 4px; background-image: url('/images/guarantee_get_btn.png'); background-position: right top; background-repeat: no-repeat; }
-		.specialOfferArea a span { padding-left: 4px; margin-right: 18px; width: 50px; height: 50px; font-size: 24px; color: #fff; text-align: center; line-height: 50px; border: 1px solid #ec4545; border-radius: 50%; -webkit-transition: 0.30s; -moz-transition: 0.30s; transition: 0.30s; background: #d30f0f; }
-        .specialOfferArea .one-time-offer { font-size: 28px; }
-
-        .affnetworksArea .bottom-text { padding: 50px 0 0 0; }
-        .affAdvantagesArea .reasons { padding: 0; }
-        .affCustomersGetArea .title img { max-width: 100%; bottom: -20px; left:160px; }
-        .affCustomersGetAreaInner .size-52px { font-size: 48px; }
-        .affCustomersGetArea .affCustomersGetAreaInner { padding: 0; }
-        .affGetLinkArea .affGetLinkInnerArea { padding: 0; }
-        .brushed > .bg > img { display: none; }
-        .affGetAccessArea .affGetAccessInnerArea .form .get-link { max-width: 100%; }
          
          /* Confirm exit */
         .confirm-exit-counter { width: 200px; }
