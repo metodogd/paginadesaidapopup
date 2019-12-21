@@ -142,16 +142,6 @@ box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.5); }
 /* OVERWRITE col-md, col-sm*/
 /*.members_offer_sec .col-md-2 { width: 20%; }*/
 
-/* ----------- Cooki Consent -------------- */
-div.cookie-consent { padding: 20px; position: fixed; right: 15px; bottom: 15px; z-index: 10000; max-width: 400px; background-color: #000; }
-div.cookie-consent span { color: #fff; font-size: 14px; }
-div.cookie-consent span a { color: #fff; text-decoration: underline; }
-div.cookie-consent .consent-btn-block { text-align: center; padding-top: 15px;}
-div.cookie-consent .consent-btn { padding: 5px 30px; margin:0; background-color: #eec228; color: #fefefe; font-size: 14px; background:#eec228; border-radius:3px; text-transform: uppercase; }
-div.cookie-consent .consent-btn:hover { color:#fff; background: #ffc600; }
-@media (max-width:480px) {
-	div.cookie-consent { right: 0px; bottom: 0px; max-width: 100%; width: 100%; }
-}
 
 /* GENERAL CSS CODE END */
 
